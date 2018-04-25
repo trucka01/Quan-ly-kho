@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="@drawable/a">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tvname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xin Chào: "
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInsertAuthor"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/button3"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Thêm Kho Hàng" />
+
+    <Button
+        android:id="@+id/buttonShowAuthorList"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/button3"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Xem Danh Sách Kho"  />
+
+    <Button
+        android:id="@+id/buttonInsertBook"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/button3"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Quản lý Đơn Hàng"  />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="400dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ KHO"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtTk"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittext"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Tài Khoản"/>
+        <EditText
+            android:id="@+id/edtMk"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Mật Khẩu"
+            />
+        <Button
+            android:id="@+id/btnDn"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/button3"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="ĐĂNG NHẬP"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
